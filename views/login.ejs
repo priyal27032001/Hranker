@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+<main style="padding-top:200px;"> 
+    <form action="/login" method="post" style="text-align:center;margin:auto;max-width:330px;">
+        <h1 class="h3 mb-3 fw-normal">Please Login</h1>
+        <div class="form-floating">
+          <input type="email" class="form-control" name="Username" placeholder="name@example.com">
+          <label>Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control"  name="Password" placeholder="Password">
+          <label>Password</label>
+        </div>
+        <button style="margin-top:20px;background-color:#EEEBDD;" class="w-100 btn btn-lg" type="submit">Login</button>
+        </form>
+
+</main>
+<%- include('partials/footer') %>

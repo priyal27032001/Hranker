@@ -1,0 +1,17 @@
+<%- include('partials/header') %>
+<div style="padding-top:200px;">
+    <form action="/compose" method="post" style="text-align:center;margin:auto;max-width:500px;">
+        <div class="input-group mb-3">
+            <h3>Send to:</h3>
+            <input style="margin-left:10px;" type="text" class="form-control" placeholder="Username" aria-label="Username" name="Username">
+          </div>
+          
+          <div class="input-group">
+            <span class="input-group-text">Type Message</span>
+            <textarea style="height:200px;" class="form-control" aria-label="With textarea" name="message"></textarea>
+          </div>
+        <button style="margin-top:10px;background-color:#EEEBDD;" class="btn btn-lg" type="submit">Send Message</button>
+    </form>
+
+</div>
+<%- include('partials/footer') %>
